@@ -1,4 +1,6 @@
-
+@if(isset($config->address)) @section( 'chinaaddress', $config->address ) @endif
+@if(isset($config->title_text)) @section( 'title_text', $config->title_text ) @endif
+@if(isset($config->address_two)) @section( 'address_two', $config->address_two ) @endif
     <nav x-data="{ open: false }" class="bg-[#313131] border-b border-gray-100">
         <!-- Primary Navigation Menu -->
 
