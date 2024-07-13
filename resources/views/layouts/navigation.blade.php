@@ -44,7 +44,7 @@
                         </div>
                     @endif
 
-                        {{--<div class="bg-[#b6da3a82] p-2 mt-4 mb-4">
+                        <div class="bg-[#b6da3a82] p-2 mt-4 mb-4">
                             <p class="mb-6 text-sm text-dark font-bold">Адрес склада в Китае</p>
                             <p class="mb-6 text-sm text-dark" id="china">@yield( 'chinaaddress' ) <br />
                                 <b>({{ \Illuminate\Support\Facades\Auth::user()->login }}){{ \Illuminate\Support\Facades\Auth::user()->name }} </b><br />
@@ -54,20 +54,20 @@
                             <p class="mb-6 text-sm text-dark" style="display: none;" id="chinaaddress">@yield( 'address_two' )@yield( 'chinaaddress' )</p>
                             <button onclick="copyText()" class="focus:outline-none text-white bg-[#b6da3a] hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">Копировать</button>
                         </div>
-
+{{--
                         <div class="bg-[#fab4b4] p-2 mt-4 mb-4">
                             <p><span>Образец</span></p>
                             <img src="{{asset('images/china.jpg')}}" alt="China">
                         </div>
                         <hr class="h-px mb-4 bg-gray-200 border-0">--}}
 
-                    {{--<div class="bg-gray-200 p-2 mt-4 mb-4">
+                    <div class="bg-gray-200 p-2 mt-4 mb-4">
                         <p class="leading-4"><small>Для более удобного пользования сайтом добавьте на главный экран Вашего телефона приложение</small></p>
                         <div class="grid grid-cols-2 gap-4">
                             <a href="https://youtu.be/0j5jX8ufoFs" target="_blank" class="px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-200 rounded-lg focus:outline-none hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200">{{ __('Iphone') }}</a>
                             <button onclick="install()" class="px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-200 rounded-lg focus:outline-none hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200">{{ __('Android') }}</button>
                         </div>
-                    </div>--}}
+                    </div>
 
 
                     <hr class="h-px my-8 bg-gray-200 border-0">
@@ -77,14 +77,14 @@
                           this.closest('form').submit();" class="w-full justify-center inline-flex cursor-pointer px-4 py-2 text-sm font-medium text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300">{{ __('Выйти') }}</a></form>
                     </div>
                 </div>
-                {{--<script>
+                <script>
                     function copyText() {
                         /* Copy text into clipboard */
                         var chinaaddress = $("#chinaaddress").html();
                         navigator.clipboard.writeText(chinaaddress);
                     }
 
-                </script>--}}
+                </script>
                     <script>
                         let deferredPrompt = null;
 
