@@ -136,7 +136,7 @@
                                             track_code: trackCode
                                         },
                                         success: function(response) {
-                                            var barcodeImage = '<img src="data:image/png;base64,' + response.barcode + '"/>';
+                                            var barcodeImage = '<img src="data:image/png;base64,' + response.barcode + '"/><br />';
                                             $('#content-to-print').html(barcodeImage + trackCode);
                                             $('#printButton').show();
                                         },
