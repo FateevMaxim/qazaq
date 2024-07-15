@@ -34,7 +34,7 @@
                                     <div id="content-to-print" class="mt-4">
                                     </div>
                                     <div class="mt-8">
-                                        <button onclick="printBlock('content-to-print')" class="bg-blue-500 hover:bg-blue-700 text-white text-center font-bold py-2 px-4 rounded" id="printButton" style="display: none;">Добавить и распечатать</button>
+                                        <button onclick="printDiv('content-to-print')" class="bg-blue-500 hover:bg-blue-700 text-white text-center font-bold py-2 px-4 rounded" id="printButton" style="display: none;">Добавить и распечатать</button>
                                     </div>
 
                                 </div>
