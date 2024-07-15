@@ -45,7 +45,7 @@
                                         <h1 id="count"></h1>
                                     </div>
                                 </div>
-                                <div class="absolute w-full bottom-0 p-4">
+                                {{--<div class="absolute w-full bottom-0 p-4">
 
                                         <div>
                                             <div>
@@ -56,7 +56,7 @@
                                             </div>
                                         </div>
 
-                                </div>
+                                </div>--}}
                             </form>
                         </div>
 
