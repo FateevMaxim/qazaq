@@ -137,7 +137,7 @@
                                         },
                                         success: function(response) {
                                             var barcodeImage = '<img src="data:image/png;base64,' + response.barcode + '"/><br />';
-                                            $('#content-to-print').html(barcodeImage + trackCode);
+                                            $('#content-to-print').html(barcodeImage + '<span style="font-size: 35px;">' + trackCode + '</span>');
                                             $('#printButton').show();
                                         },
                                         error: function(xhr, status, error) {
