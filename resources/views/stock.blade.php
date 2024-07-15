@@ -30,7 +30,7 @@
                                     <label>Введите трек код</label>
                                     <input type="text" name="track_code" id="track_code">
 
-                                    <a class="bg-blue-500 hover:bg-blue-700 text-white text-center font-bold mt-8 py-2 px-4 rounded" id="generateCode" style="display: none;">Сгенерировать штрих код</a>
+                                    <a class="bg-blue-500 hover:bg-blue-700 text-white text-center mt-8 py-2 px-4 rounded" id="generateCode" style="display: none;">Сгенерировать штрих код</a>
                                     <div id="content-to-print" class="mt-4">
                                     </div>
                                     <div class="mt-8">
